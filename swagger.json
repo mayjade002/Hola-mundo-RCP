@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API de Hola Mundo",
+      "version": "1.0.0",
+      "description": "Una simple API que responde con Hola Mundo"
+    },
+    "paths": {
+      "/hello": {
+        "get": {
+          "summary": "Devuelve un mensaje de Hola Mundo",
+          "responses": {
+            "200": {
+              "description": "Mensaje de Hola Mundo",
+              "content": {
+                "text/plain": {
+                  "example": "Hola Mundo"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
